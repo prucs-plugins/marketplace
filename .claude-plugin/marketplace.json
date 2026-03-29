@@ -1,0 +1,102 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "prucs-plugins",
+  "description": "Official Claude Code plugin marketplace by the prucs-plugins org",
+  "owner": {
+    "name": "prucs-plugins"
+  },
+  "homepage": "https://github.com/prucs-plugins/marketplace",
+  "repository": "https://github.com/prucs-plugins/marketplace",
+  "plugins": [
+    {
+      "name": "gameplay-editor",
+      "description": "Transform long gameplay recordings into highlight reels and short-form clips using audio analysis and browser-based clip curation",
+      "version": "4.0.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/gameplay-editor"
+      },
+      "homepage": "https://github.com/prucs-plugins/gameplay-editor",
+      "license": "MIT",
+      "keywords": [
+        "video",
+        "editing",
+        "gameplay",
+        "highlights",
+        "ffmpeg",
+        "whisper"
+      ]
+    },
+    {
+      "name": "coconuti",
+      "description": "AI-powered investment research, prediction, and portfolio management with multi-agent DAG pipeline architecture and intelligent delegation framework",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/claude-plugin-trader"
+      },
+      "homepage": "https://github.com/prucs-plugins/claude-plugin-trader",
+      "license": "MIT",
+      "keywords": [
+        "investment",
+        "trading",
+        "research",
+        "prediction",
+        "portfolio",
+        "stocks"
+      ]
+    },
+    {
+      "name": "research-mode",
+      "description": "Anti-hallucination research mode for Claude Code. Toggle on/off to enforce citation requirements, source grounding, and I don't know behavior.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/research-mode"
+      },
+      "homepage": "https://github.com/prucs-plugins/research-mode",
+      "keywords": [
+        "research",
+        "hallucination",
+        "citations",
+        "grounding"
+      ]
+    },
+    {
+      "name": "reddit-business-research",
+      "description": "Research what Reddit says about your business, competitors, and industry. Searches posts, analyzes sentiment, and generates actionable reports.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/reddit-business-research"
+      },
+      "homepage": "https://github.com/prucs-plugins/reddit-business-research",
+      "license": "MIT",
+      "keywords": [
+        "reddit",
+        "market-research",
+        "business-intelligence",
+        "sentiment-analysis"
+      ]
+    },
+    {
+      "name": "claude-code-plugins",
+      "description": "Multi-plugin collection: strategic context management, Serena MCP integration, Dart/Flutter LSP, pre-commit workflows, idea research, implementation planning, and project optimization",
+      "version": "1.1.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/claude-code-plugins"
+      },
+      "homepage": "https://github.com/prucs-plugins/claude-code-plugins",
+      "license": "MIT",
+      "keywords": [
+        "context-management",
+        "code-review",
+        "tdd",
+        "market-research",
+        "mcp",
+        "serena"
+      ]
+    }
+  ]
+}
