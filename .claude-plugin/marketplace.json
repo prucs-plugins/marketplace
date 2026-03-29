@@ -80,22 +80,128 @@
       ]
     },
     {
-      "name": "claude-code-plugins",
-      "description": "Multi-plugin collection: strategic context management, Serena MCP integration, Dart/Flutter LSP, pre-commit workflows, idea research, implementation planning, and project optimization",
-      "version": "1.1.0",
+      "name": "strategic-compact",
+      "description": "Smart context management plugin. Suggests manual compaction at strategic points (phase transitions, milestones) instead of arbitrary auto-compact.",
+      "version": "1.0.0",
       "source": {
         "source": "github",
-        "repo": "prucs-plugins/claude-code-plugins"
+        "repo": "prucs-plugins/claude-code-plugins",
+        "path": "strategic-compact"
       },
       "homepage": "https://github.com/prucs-plugins/claude-code-plugins",
       "license": "MIT",
       "keywords": [
-        "context-management",
-        "code-review",
-        "tdd",
-        "market-research",
+        "context",
+        "compaction",
+        "memory"
+      ]
+    },
+    {
+      "name": "serena-integration",
+      "description": "Full-automation Serena MCP integration for Claude Code. Zero manual configuration - semantic navigation, automatic memory management, and intelligent tool routing.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/claude-code-plugins",
+        "path": "serena-integration"
+      },
+      "homepage": "https://github.com/prucs-plugins/claude-code-plugins",
+      "license": "MIT",
+      "keywords": [
+        "serena",
         "mcp",
-        "serena"
+        "memory",
+        "navigation"
+      ]
+    },
+    {
+      "name": "dart-lsp",
+      "description": "Dart/Flutter language server for enhanced code intelligence including go-to-definition, find references, hover information, and code analysis.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/claude-code-plugins",
+        "path": "dart-lsp"
+      },
+      "homepage": "https://github.com/prucs-plugins/claude-code-plugins",
+      "license": "MIT",
+      "keywords": [
+        "dart",
+        "flutter",
+        "lsp",
+        "language-server"
+      ]
+    },
+    {
+      "name": "pre-commit-flow",
+      "description": "Pre-commit quality assurance workflow with code review, documentation updates, and smart commits. Supports Laravel, Flutter, Vue 2/3, TailwindCSS, and Alpine.js.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/claude-code-plugins",
+        "path": "pre-commit-flow"
+      },
+      "homepage": "https://github.com/prucs-plugins/claude-code-plugins",
+      "license": "MIT",
+      "keywords": [
+        "git",
+        "pre-commit",
+        "code-review",
+        "documentation"
+      ]
+    },
+    {
+      "name": "idea-research",
+      "description": "Comprehensive business research, market analysis, competitor intelligence, and idea validation with TAM/SAM/SOM, Porter's Five Forces, and SWOT analysis.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/claude-code-plugins",
+        "path": "idea-research"
+      },
+      "homepage": "https://github.com/prucs-plugins/claude-code-plugins",
+      "license": "MIT",
+      "keywords": [
+        "research",
+        "market-analysis",
+        "business-intelligence",
+        "validation"
+      ]
+    },
+    {
+      "name": "implementation-planner",
+      "description": "Structured implementation planning, execution, and TDD workflow. Create plans with Opus, execute with Sonnet, enforce RED-GREEN-REFACTOR discipline.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/claude-code-plugins",
+        "path": "implementation-planner"
+      },
+      "homepage": "https://github.com/prucs-plugins/claude-code-plugins",
+      "license": "MIT",
+      "keywords": [
+        "tdd",
+        "planning",
+        "implementation",
+        "testing"
+      ]
+    },
+    {
+      "name": "project-optimizer",
+      "description": "Create project.md (PRD), brand.md (brand guidelines), and CLAUDE.md (technical config) for any project. Interactive workflow with archetype-based branding.",
+      "version": "1.1.0",
+      "source": {
+        "source": "github",
+        "repo": "prucs-plugins/claude-code-plugins",
+        "path": "project-optimizer"
+      },
+      "homepage": "https://github.com/prucs-plugins/claude-code-plugins",
+      "license": "MIT",
+      "keywords": [
+        "project-setup",
+        "branding",
+        "documentation",
+        "optimization"
       ]
     }
   ]
