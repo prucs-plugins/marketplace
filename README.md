@@ -20,6 +20,7 @@ Then install any plugin:
 |--------|-------------|--------|
 | [gameplay-editor](#gameplay-editor) | Transform gameplay recordings into highlight reels using AI audio analysis | [prucs-plugins/gameplay-editor](https://github.com/prucs-plugins/gameplay-editor) |
 | [coconuti](#coconuti) | AI-powered investment research, prediction, and portfolio management | [prucs-plugins/claude-plugin-trader](https://github.com/prucs-plugins/claude-plugin-trader) |
+| [research-mode](#research-mode) | Anti-hallucination toggle - enforces citation requirements and source grounding | [prucs-plugins/research-mode](https://github.com/prucs-plugins/research-mode) |
 
 ---
 
@@ -61,4 +62,14 @@ AI-powered investment research, prediction, and portfolio management with multi-
 
 ```
 /plugin install coconuti
+```
+
+---
+
+### research-mode
+
+Anti-hallucination toggle for Claude Code. Activates constraints that force Claude to cite sources, say "I don't know" when unsure, and ground responses in direct quotes.
+
+```
+/plugin install research-mode
 ```
