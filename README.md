@@ -44,6 +44,14 @@ Plugins I use daily, ranked by global install count.
 | 12 | **pr-review-toolkit** | 68,342 | official | Deep PR analysis — silent failures, type design, test coverage |
 | 13 | **claude-mem** | — | [thedotmack](https://github.com/thedotmack/claude-mem) | Cross-session persistent memory with timeline and plan execution |
 
+## Other Tools
+
+Non-plugin tools I use with Claude Code.
+
+| Tool | Type | What it does | Source |
+|------|------|--------------|--------|
+| **ccstatusline** | npm package | Customizable status line formatter for the Claude Code CLI | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) |
+
 ---
 
 ### gameplay-editor
