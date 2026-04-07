@@ -52,6 +52,51 @@ Non-plugin tools I use with Claude Code.
 |------|------|--------------|--------|
 | **ccstatusline** | npm package | Customizable status line formatter for the Claude Code CLI | [sirmalloc/ccstatusline](https://github.com/sirmalloc/ccstatusline) |
 
+### ccstatusline config
+
+Widgets: model, context length, context %, session cost, git repo, git modified lines.
+
+```bash
+npm install --prefix ~/.local ccstatusline
+```
+
+Add to `~/.claude/settings.json`:
+
+```json
+{
+  "statusLine": {
+    "type": "command",
+    "command": "~/.local/node_modules/.bin/ccstatusline",
+    "padding": 0
+  }
+}
+```
+
+`~/.config/ccstatusline/settings.json`:
+
+```json
+{
+  "version": 3,
+  "lines": [
+    [
+      { "id": "1", "type": "model", "color": "cyan" },
+      { "id": "2", "type": "separator" },
+      { "id": "3", "type": "context-length", "color": "brightBlack" },
+      { "id": "4", "type": "separator" },
+      { "id": "5", "type": "context-percent", "color": "brightBlack" },
+      { "id": "6", "type": "separator" },
+      { "id": "7", "type": "session-cost", "color": "green" },
+      { "id": "8", "type": "separator" },
+      { "id": "9", "type": "git-root-dir", "color": "magenta" },
+      { "id": "10", "type": "separator" },
+      { "id": "11", "type": "git-changes", "color": "yellow" }
+    ]
+  ],
+  "flexMode": "full-minus-40",
+  "colorLevel": 2
+}
+```
+
 ---
 
 ### gameplay-editor
