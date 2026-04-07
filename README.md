@@ -83,7 +83,7 @@ Add to `~/.claude/settings.json`:
       { "id": "2", "type": "separator" },
       { "id": "3", "type": "context-length", "color": "brightBlack" },
       { "id": "4", "type": "separator" },
-      { "id": "5", "type": "context-percent", "color": "brightBlack" },
+      { "id": "5", "type": "context-percentage", "color": "brightBlack" },
       { "id": "6", "type": "separator" },
       { "id": "7", "type": "session-cost", "color": "green" },
       { "id": "8", "type": "separator" },
